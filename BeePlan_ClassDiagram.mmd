@@ -1,0 +1,59 @@
+classDiagram
+    class Department {
+        +string name
+        +string code
+    }
+
+    class Schedule {
+        +string id
+        +int year
+        +map weeklyGrid
+        +list~Course~ courseList
+        +addCourse(course: Course)
+        +detectConflicts()
+        +generateReport()
+    }
+
+    class Course {
+        +string courseId
+        +string name
+        +int year
+        +int theoryHours
+        +int labHours
+        +int capacity
+        +string type  // mandatory / elective
+        +assignRoom(room: Classroom)
+        +checkConflict()
+    }
+
+    class Instructor {
+        +string instructorId
+        +string name
+        +map availability   // day -> time slots
+        +int maxTheoryPerDay
+        +isAvailable(timeslot)
+        +addCourse(course: Course)
+    }
+
+    class Classroom {
+        +string roomId
+        +int capacity
+        +string type  // lab / classroom
+        +isAvailable(timeslot)
+    }
+
+    class Constraint {
+        +bool fridayExamBlock
+        +int maxTheoryPerDay
+        +bool labAfterTheory
+        +int maxLabCapacity
+        +checkCourse(course: Course, schedule: Schedule)
+    }
+
+    %% Relationships
+    Department "1" --> "1..4" Schedule : has
+    Schedule "1" --> "0..*" Course : contains
+    Instructor "1" --> "0..*" Course : teaches
+    Course "0..*" --> "1" Instructor : taughtBy
+    Course "0..*" --> "0..*" Classroom : uses
+    Constraint "1" --> "1" Schedule : validates
