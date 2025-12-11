@@ -1,0 +1,27 @@
+[
+  {
+    "id": "54c6e839-e878-45dd-acb0-ca55fea52987",
+    "name": "Esin",
+    "surname": "Samray",
+    "age": 0,
+    "role": "parent",
+    "password": "esin123",
+    "points": 0,
+    "level": 1,
+    "childrenIds": [],
+    "classIds": []
+  },
+  {
+    "id": "fcacc09d-b4c4-4215-a6cc-d6dfe6fe7e13",
+    "name": "Selin",
+    "surname": "Samray",
+    "age": 21,
+    "role": "kid",
+    "password": "selin123",
+    "points": 0,
+    "level": 1,
+    "classId": "28",
+    "childrenIds": [],
+    "classIds": []
+  }
+]
