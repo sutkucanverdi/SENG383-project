@@ -1,0 +1,6 @@
+id|title|description|dueDate|points|status|type|childId|rating
+t1a2b3c4-d5e6-7890-abcd-ef1234567890|Read 20 Pages|Read chapter 3 from science book|2025-12-15|50|PENDING|DAILY|a1b2c3d4-e5f6-7890-abcd-ef1234567890|
+t2b3c4d5-e6f7-8901-bcde-f12345678901|Math Homework|Complete exercises 1-10|2025-12-16|75|COMPLETED|DAILY|a1b2c3d4-e5f6-7890-abcd-ef1234567890|
+t3c4d5e6-f7a8-9012-cdef-123456789012|Weekly Project|Prepare presentation about planets|2025-12-20|100|APPROVED|WEEKLY|a1b2c3d4-e5f6-7890-abcd-ef1234567890|4.5
+t4d5e6f7-a8b9-0123-def0-234567890123|Clean Room|Organize toys and books|2025-12-14|30|APPROVED|DAILY|d4e5f6a7-b8c9-0123-def0-234567890123|5.0
+

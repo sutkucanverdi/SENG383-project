@@ -1,0 +1,2 @@
+id|title|description|dueDate|points|status|type|childId|rating
+b293de7d-801e-446c-80c2-bdfdc55f0e49|aaa|aaa|2025-12-06|10|PENDING_APPROVAL|DAILY|0212eab2-8ca4-4c55-870f-12691c98e749|
