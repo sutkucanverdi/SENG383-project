@@ -9,17 +9,18 @@ public class Task {
     private String description;
     private LocalDate dueDate;
     private int points;
-    private boolean completed;
+    
+    // --- ÖNEMLİ: boolean completed SİLİNDİ, status GELDİ ---
+    private String status; // "todo", "PENDING", "COMPLETED"
 
     private String frequency;
     private String assignedBy;
-
-    private String kidId;   // önemli!
+    private String kidId;
 
     public Task() {}
 
     public Task(int id, String name, String desc, LocalDate date,
-                int points, boolean completed, String freq,
+                int points, String status, String freq,
                 String assignedBy, String kidId) {
 
         this.id = id;
@@ -27,30 +28,32 @@ public class Task {
         this.description = desc;
         this.dueDate = date;
         this.points = points;
-        this.completed = completed;
+        this.status = status;
         this.frequency = freq;
         this.assignedBy = assignedBy;
         this.kidId = kidId;
     }
 
-    // --- GETTERS ---
     public int getId() { return id; }
     public String getTaskName() { return taskName; }
     public String getDescription() { return description; }
     public LocalDate getDueDate() { return dueDate; }
     public int getPoints() { return points; }
-    public boolean isCompleted() { return completed; }
+    public String getStatus() { return status; } // Getter değişti
     public String getFrequency() { return frequency; }
     public String getAssignedBy() { return assignedBy; }
     public String getKidId() { return kidId; }
 
-    // --- SETTERS ---
-    public void setCompleted(boolean val) { this.completed = val; }
+    public void setStatus(String status) { this.status = status; }
+
+    public boolean isCompleted() {
+        return "COMPLETED".equalsIgnoreCase(status);
+    }
 
     @Override
     public String toString() {
-        return "Task #" + id + " | " + taskName +
-                " | Points: " + points +
-                " | Completed: " + completed;
+        // Konsolda daha düzenli görünmesi için tarihi de ekledik
+        return String.format("Task #%d | %s | Due: %s | Pts: %d | Status: %s", 
+                             id, taskName, dueDate, points, status);
     }
 }

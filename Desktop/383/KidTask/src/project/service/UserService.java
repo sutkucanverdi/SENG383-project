@@ -96,4 +96,31 @@ public class UserService {
         }
         return list;
     }
+
+
+public boolean linkChildByUsername(User parent, String childUsername) {
+    // İsmi eşleşen 'kid' rolündeki kullanıcıyı bul
+    User child = users.stream()
+            .filter(u -> u.getName().equalsIgnoreCase(childUsername) && "kid".equals(u.getRole()))
+            .findFirst()
+            .orElse(null);
+
+    if (child != null) {
+        // Zaten ekli değilse ekle
+        if (!parent.getChildrenIds().contains(child.getId())) {
+            parent.addChild(child.getId());
+            saveUsers();
+            return true;
+        }
+    }
+    return false;
+}
+
+
+public User getKidByUsername(String username) {
+    return users.stream()
+            .filter(u -> u.getName().equalsIgnoreCase(username) && "kid".equals(u.getRole()))
+            .findFirst()
+            .orElse(null);
+}
 }
