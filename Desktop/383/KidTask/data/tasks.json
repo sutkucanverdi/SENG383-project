@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "taskName": "lol oyna",
+    "description": "�ok",
+    "dueDate": "2025-12-25",
+    "points": 200,
+    "status": "PENDING",
+    "frequency": "weeklu",
+    "assignedBy": "Cem",
+    "kidId": "kid-onur-002"
+  },
+  {
+    "id": 2,
+    "taskName": "mat",
+    "description": "��z",
+    "dueDate": "2025-12-24",
+    "points": 140,
+    "status": "COMPLETED",
+    "frequency": "daily",
+    "assignedBy": "Selin",
+    "kidId": "kid-onur-002"
+  },
+  {
+    "id": 3,
+    "taskName": "fizik",
+    "description": "��z",
+    "dueDate": "2025-12-24",
+    "points": 99,
+    "status": "COMPLETED",
+    "frequency": "daily",
+    "assignedBy": "yigit",
+    "kidId": "c9e2047b-f8ea-4292-9d13-88882813cfb3"
+  },
+  {
+    "id": 4,
+    "taskName": "deneme2,",
+    "description": "2",
+    "dueDate": "2025-12-24",
+    "points": 140,
+    "status": "COMPLETED",
+    "frequency": "daily",
+    "assignedBy": "ege",
+    "kidId": "c9e2047b-f8ea-4292-9d13-88882813cfb3"
+  }
+]
