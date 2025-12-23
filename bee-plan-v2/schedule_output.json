@@ -1,0 +1,92 @@
+[
+    {
+        "code": "PHYS 131",
+        "instructor": "Physics Dept",
+        "schedule": []
+    },
+    {
+        "code": "MATH 157",
+        "instructor": "Math Dept",
+        "schedule": []
+    },
+    {
+        "code": "ENG 121",
+        "instructor": "Foreign Lang",
+        "schedule": []
+    },
+    {
+        "code": "TURK 101",
+        "instructor": "Turkish Dept",
+        "schedule": []
+    },
+    {
+        "code": "BIO 101",
+        "instructor": "Bio Dept",
+        "schedule": []
+    },
+    {
+        "code": "ESR 103",
+        "instructor": "Soc. Dept",
+        "schedule": []
+    },
+    {
+        "code": "SENG 101",
+        "instructor": "S.Esmelioglu",
+        "schedule": []
+    },
+    {
+        "code": "MATH 223",
+        "instructor": "Math Dept",
+        "schedule": []
+    },
+    {
+        "code": "HIST 201",
+        "instructor": "Hist Dept",
+        "schedule": []
+    },
+    {
+        "code": "SENG 201",
+        "instructor": "B.Celikkale",
+        "schedule": []
+    },
+    {
+        "code": "SENG 203",
+        "instructor": "Math/SENG",
+        "schedule": []
+    },
+    {
+        "code": "SENG 301",
+        "instructor": "S.K.Tunc",
+        "schedule": []
+    },
+    {
+        "code": "SENG 315",
+        "instructor": "B.Avenoglu",
+        "schedule": []
+    },
+    {
+        "code": "SENG 303",
+        "instructor": "S.Esmelioglu",
+        "schedule": []
+    },
+    {
+        "code": "SENG 491",
+        "instructor": "S.Esmelioglu",
+        "schedule": []
+    },
+    {
+        "code": "CENG 464",
+        "instructor": "G.Tokdemir",
+        "schedule": []
+    },
+    {
+        "code": "SENG 474",
+        "instructor": "S.K.Tunc",
+        "schedule": []
+    },
+    {
+        "code": "SENG 449",
+        "instructor": "N.Cagiltay",
+        "schedule": []
+    }
+]

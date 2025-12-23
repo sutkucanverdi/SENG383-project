@@ -1,0 +1,39 @@
+[
+  { "code": "PHYS 131", "name": "Physics I", "semester": 1, "year": 1, "theory_hours": 3, "lab_hours": 2, "instructor": "Physics Dept", "is_fixed": true, "fixed_slots": [[0,0,"T"],[2,0,"T"],[2,2,"L"],[2,3,"L"]] },
+  { "code": "MATH 157", "name": "Calculus I", "semester": 1, "year": 1, "theory_hours": 4, "lab_hours": 0, "instructor": "Math Dept", "is_fixed": true, "fixed_slots": [[0,4,"T"],[2,4,"T"]] },
+  { "code": "ENG 121", "name": "Academic English I", "semester": 1, "year": 1, "theory_hours": 3, "lab_hours": 0, "instructor": "Foreign Lang", "is_fixed": true, "fixed_slots": [[1,0,"T"],[1,1,"T"]] },
+  { "code": "TURK 101", "name": "Turkish I", "semester": 1, "year": 1, "theory_hours": 2, "lab_hours": 0, "instructor": "Turkish Dept", "is_fixed": true, "fixed_slots": [[0,2,"T"]] },
+  { "code": "BIO 101", "name": "Intro to Biology", "semester": 1, "year": 1, "theory_hours": 3, "lab_hours": 0, "instructor": "Bio Dept", "is_fixed": true, "fixed_slots": [[3,0,"T"]] },
+  { "code": "ESR 103", "name": "Ethics & Resp.", "semester": 1, "year": 1, "theory_hours": 1, "lab_hours": 0, "instructor": "Soc. Dept", "is_fixed": false, "fixed_slots": [] },
+  { "code": "SENG 101", "name": "Comp. Prog I", "semester": 1, "year": 1, "theory_hours": 3, "lab_hours": 2, "instructor": "S.Esmelioglu", "is_fixed": false, "fixed_slots": [] },
+
+  { "code": "PHYS 132", "name": "Physics II", "semester": 2, "year": 1, "theory_hours": 3, "lab_hours": 2, "instructor": "Physics Dept", "is_fixed": true, "fixed_slots": [[2,0,"T"],[4,0,"T"]] },
+  { "code": "MATH 158", "name": "Calculus II", "semester": 2, "year": 1, "theory_hours": 4, "lab_hours": 0, "instructor": "Math Dept", "is_fixed": true, "fixed_slots": [[0,0,"T"]] },
+  { "code": "TURK 102", "name": "Turkish II", "semester": 2, "year": 1, "theory_hours": 2, "lab_hours": 0, "instructor": "Turkish Dept", "is_fixed": true, "fixed_slots": [[1,4,"T"]] },
+  { "code": "SENG 102", "name": "Comp. Prog II", "semester": 2, "year": 1, "theory_hours": 3, "lab_hours": 2, "instructor": "S.Esmelioglu", "is_fixed": false, "fixed_slots": [] },
+
+  { "code": "MATH 223", "name": "Discrete Struct.", "semester": 1, "year": 2, "theory_hours": 3, "lab_hours": 0, "instructor": "Math Dept", "is_fixed": true, "fixed_slots": [[1,0,"T"]] },
+  { "code": "HIST 201", "name": "History I", "semester": 1, "year": 2, "theory_hours": 2, "lab_hours": 0, "instructor": "Hist Dept", "is_fixed": true, "fixed_slots": [[0,3,"T"]] },
+  { "code": "SENG 201", "name": "Data Structures", "semester": 1, "year": 2, "theory_hours": 3, "lab_hours": 2, "instructor": "B.Celikkale", "is_fixed": false, "fixed_slots": [] },
+  { "code": "SENG 203", "name": "Discrete Struct(SE)", "semester": 1, "year": 2, "theory_hours": 3, "lab_hours": 0, "instructor": "Math/SENG", "is_fixed": false, "fixed_slots": [] },
+
+  { "code": "SENG 206", "name": "Software Design", "semester": 2, "year": 2, "theory_hours": 3, "lab_hours": 0, "instructor": "S.K.Tunc", "is_fixed": false, "fixed_slots": [] },
+  { "code": "SENG 271", "name": "Software Project I", "semester": 2, "year": 2, "theory_hours": 2, "lab_hours": 0, "instructor": "Dept Staff", "is_fixed": false, "fixed_slots": [] },
+
+  { "code": "SENG 301", "name": "Project Mgmt", "semester": 1, "year": 3, "theory_hours": 2, "lab_hours": 2, "instructor": "S.K.Tunc", "is_fixed": false, "fixed_slots": [] },
+  { "code": "SENG 315", "name": "Concurrent Prog", "semester": 1, "year": 3, "theory_hours": 3, "lab_hours": 0, "instructor": "B.Avenoglu", "is_fixed": false, "fixed_slots": [] },
+  { "code": "SENG 303", "name": "Software Testing", "semester": 1, "year": 3, "theory_hours": 3, "lab_hours": 0, "instructor": "S.Esmelioglu", "is_fixed": false, "fixed_slots": [] },
+
+  { "code": "SENG 383", "name": "Software Project III", "semester": 2, "year": 3, "theory_hours": 0, "lab_hours": 2, "instructor": "B.Celikkale", "is_fixed": false, "fixed_slots": [] },
+  { "code": "MATH 205", "name": "Linear Algebra", "semester": 2, "year": 3, "theory_hours": 3, "lab_hours": 0, "instructor": "Math Dept", "is_fixed": true, "fixed_slots": [[2,0,"T"]] },
+  { "code": "HIST 202", "name": "History II", "semester": 2, "year": 3, "theory_hours": 2, "lab_hours": 0, "instructor": "Hist Dept", "is_fixed": true, "fixed_slots": [[3,1,"T"]] },
+
+  { "code": "SENG 491", "name": "Grad Project I", "semester": 1, "year": 4, "theory_hours": 1, "lab_hours": 4, "instructor": "S.Esmelioglu", "is_fixed": false, "fixed_slots": [] },
+  { "code": "CENG 464", "name": "Data Mining", "semester": 1, "year": 4, "theory_hours": 3, "lab_hours": 0, "instructor": "G.Tokdemir", "is_fixed": false, "fixed_slots": [] },
+  { "code": "SENG 474", "name": "HCI", "semester": 1, "year": 4, "theory_hours": 3, "lab_hours": 0, "instructor": "S.K.Tunc", "is_fixed": false, "fixed_slots": [] },
+  { "code": "SENG 449", "name": "Spec.Topics SE", "semester": 1, "year": 4, "theory_hours": 3, "lab_hours": 0, "instructor": "N.Cagiltay", "is_fixed": false, "fixed_slots": [] },
+  
+  { "code": "SENG 426", "name": "Formal Methods", "semester": 2, "year": 4, "theory_hours": 4, "lab_hours": 0, "instructor": "B.Celikkale", "is_fixed": false, "fixed_slots": [] },
+  { "code": "SENG 445", "name": "Computer Vision", "semester": 2, "year": 4, "theory_hours": 3, "lab_hours": 0, "instructor": "T.Karadeniz", "is_fixed": false, "fixed_slots": [] },
+  { "code": "CENG 493", "name": "Intro to NLP", "semester": 2, "year": 4, "theory_hours": 3, "lab_hours": 0, "instructor": "S.Arslan", "is_fixed": false, "fixed_slots": [] }
+]

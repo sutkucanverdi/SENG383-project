@@ -1,0 +1,8 @@
+[
+  {"name": "S.Esmelioglu", "max_hours": 4, "busy_slots": []},
+  {"name": "B.Celikkale", "max_hours": 4, "busy_slots": []},
+  {"name": "B.Avenoglu", "max_hours": 4, "busy_slots": []},
+  {"name": "S.K.Tunc", "max_hours": 4, "busy_slots": []},
+  {"name": "Physics Dept", "max_hours": 20, "busy_slots": []},
+  {"name": "Math Dept", "max_hours": 20, "busy_slots": []}
+]
