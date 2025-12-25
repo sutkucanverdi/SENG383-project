@@ -178,5 +178,15 @@
     "approved": true,
     "purchased": false,
     "kidId": "kid-beyza-001"
+  },
+  {
+    "id": 20,
+    "name": "deasdasdasd",
+    "description": "...",
+    "requiredPoints": 0,
+    "requiredLevel": 1,
+    "approved": false,
+    "purchased": false,
+    "kidId": "kid-beyza-001"
   }
 ]
