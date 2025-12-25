@@ -1,0 +1,38 @@
+flowchart TD
+
+    A([Start]) --> B[Initialize system]
+    B --> C[Load common schedule]
+    C --> D[Load curriculum]
+    D --> E[Load instructor schedules]
+    E --> F[Load scheduling criteria]
+
+    F --> G[Start Generate Schedule]
+    G --> H[Search time slot and room or lab]
+
+    %% Friday exam block rule
+    H --> I[Check Friday exam block rule]
+    I --> J{Available?}
+
+    J -->|Yes| K[Assign course]
+    J -->|No| L[Show warning]
+    L --> H
+
+    %% General conflict check
+    K --> M{Conflict?}
+    M -->|Yes| N[Suggest alternative time]
+    N --> H
+    M -->|No| O[Place course]
+
+    %% Additional BeePlan rules
+    O --> P[Check lab after theory rule]
+    P --> Q[Check lab capacity limit 40]
+    Q --> R[Check compulsory vs elective]
+    R --> S[Check CENG vs SENG electives]
+
+    %% All courses placed?
+    S --> T{All courses placed?}
+    T -->|No| H
+    T -->|Yes| U[Schedule created]
+
+    U --> V[Show report]
+    V --> W([End])
