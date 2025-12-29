@@ -10,6 +10,8 @@ class Course:
     semester: int
     theory_hours: int
     lab_hours: int
+    students: int = 0
+
     is_fixed: bool = False
     fixed_slots: List[list] = field(default_factory=list)
     
@@ -28,3 +30,9 @@ class Course:
         else:
             # Format fixed slots from [day, hour, type] to (day, hour, type)
             self.assigned_slots = [(s[0], s[1], s[2]) for s in self.fixed_slots]
+
+@dataclass
+class Room:
+    name: str
+    capacity: int
+    type: str # "Lab" or "Classroom"

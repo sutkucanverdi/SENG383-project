@@ -130,7 +130,8 @@ class MainWindow(QMainWindow):
         
         # 1. Verileri Yükle
         self.loader = DataLoader()
-        self.all_courses = self.loader.load_courses() # Tüm havuzu yükle
+        self.all_courses = self.loader.courses # DataLoader'dan hazır al
+        self.rooms = self.loader.rooms
         
         # 2. Varsayılan Dönem Ayarı (Güz)
         self.current_semester = 1 
@@ -151,8 +152,8 @@ class MainWindow(QMainWindow):
         # KRİTİK DÜZELTME: self.courses değişkenini burada güncelliyoruz.
         self.courses = [c for c in self.all_courses if c.semester == self.current_semester]
         
-        # Motoru sadece bu derslerle yeniden başlat
-        self.engine = SchedulerEngine(self.courses)
+        # Motoru sadece bu derslerle ve odalarla yeniden başlat
+        self.engine = SchedulerEngine(self.courses, self.rooms)
 
     def init_ui(self):
         central_widget = QWidget()
@@ -292,7 +293,7 @@ class MainWindow(QMainWindow):
         self.table.clearContents()
         target_year = self.combo_year.currentIndex() + 1
         
-        # Cuma Yasağı
+        # Cuma Sınav Saatini İşaretle
         for r in [4, 5]: 
             item = QTableWidgetItem("ORTAK SINAV")
             item.setBackground(QColor("#C0392B"))
@@ -304,23 +305,38 @@ class MainWindow(QMainWindow):
         # Dersleri Yerleştir
         for (year, day, hour), course in self.engine.grid.items():
             if year == target_year:
-                ctype = "T"
+                slot_info = None
+                # Atanmış veya sabitlenmiş slotu bul
                 for s in course.assigned_slots:
-                    if s[0]==day and s[1]==hour: ctype = s[2]
-                if course.is_fixed:
-                    for s in course.fixed_slots:
-                        if s[0]==day and s[1]==hour: ctype = s[2]
+                    if s[0] == day and s[1] == hour:
+                        slot_info = s
+                        break
+                if not slot_info and course.is_fixed:
+                     for s in course.fixed_slots:
+                        if s[0] == day and s[1] == hour:
+                            # fixed_slots formatı: [day, hour, type]
+                            slot_info = (s[0], s[1], s[2], None) # Oda bilgisi yok
+                            break
+                
+                if not slot_info: continue
 
-                text = f"{course.code}\n({ctype})\n{course.instructor}"
+                ctype = slot_info[2]
+                room_name = slot_info[3] if len(slot_info) > 3 else None
+
+                text = f"{course.code}\n({ctype}) - {course.instructor}"
+                if ctype == 'L' and room_name:
+                    text = f"{course.code}\n({ctype} @ {room_name})\n{course.instructor}"
+
                 item = QTableWidgetItem(text)
                 item.setTextAlignment(Qt.AlignmentFlag.AlignCenter)
                 item.setFont(QFont("Segoe UI", 9))
                 
+                # Renklendirme
                 if ctype == 'L': 
-                    item.setBackground(QColor("#5DADE2"))
+                    item.setBackground(QColor("#5DADE2")) # Mavi
                     item.setForeground(QColor("white"))
                 else: 
-                    item.setBackground(QColor("#58D68D"))
+                    item.setBackground(QColor("#58D68D")) # Yeşil
                     item.setForeground(QColor("#2C3E50"))
                     
                 self.table.setItem(hour, day, item)
