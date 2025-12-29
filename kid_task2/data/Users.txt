@@ -1,0 +1,4 @@
+id|name|role|points|level|ratingSum|ratingCount
+0212eab2-8ca4-4c55-870f-12691c98e749|child1|CHILD|0|1|0.0|0
+cc426313-8328-4acd-8aed-e5701d4d52c1|parent1|PARENT|0|0|0.0|0
+9ad3699a-2fb2-4f0d-8766-14ead7e60f59|teacher1|TEACHER|0|0|0.0|0

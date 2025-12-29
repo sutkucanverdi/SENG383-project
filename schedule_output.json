@@ -1,0 +1,536 @@
+[
+    {
+        "code": "CENG 101",
+        "instructor": "S.Esmelioglu",
+        "schedule": [
+            [
+                3,
+                3,
+                "T",
+                null
+            ],
+            [
+                1,
+                4,
+                "T",
+                null
+            ],
+            [
+                2,
+                1,
+                "T",
+                null
+            ],
+            [
+                2,
+                6,
+                "L",
+                "L-215"
+            ],
+            [
+                1,
+                5,
+                "L",
+                "L-215"
+            ]
+        ]
+    },
+    {
+        "code": "PHYS 101",
+        "instructor": "Physics Dept",
+        "schedule": [
+            [
+                2,
+                4,
+                "T",
+                null
+            ],
+            [
+                1,
+                1,
+                "T",
+                null
+            ],
+            [
+                0,
+                2,
+                "T",
+                null
+            ]
+        ]
+    },
+    {
+        "code": "MATH 157",
+        "instructor": "Math Dept",
+        "schedule": [
+            [
+                2,
+                3,
+                "T",
+                null
+            ],
+            [
+                3,
+                7,
+                "T",
+                null
+            ],
+            [
+                4,
+                5,
+                "T",
+                null
+            ],
+            [
+                4,
+                4,
+                "T",
+                null
+            ]
+        ]
+    },
+    {
+        "code": "ENGG 100",
+        "instructor": "B.Avenoglu",
+        "schedule": [
+            [
+                4,
+                7,
+                "T",
+                null
+            ],
+            [
+                1,
+                7,
+                "T",
+                null
+            ]
+        ]
+    },
+    {
+        "code": "CENG 242",
+        "instructor": "S.K.Tunc",
+        "schedule": [
+            [
+                4,
+                6,
+                "T",
+                null
+            ],
+            [
+                4,
+                1,
+                "T",
+                null
+            ],
+            [
+                3,
+                5,
+                "T",
+                null
+            ],
+            [
+                4,
+                0,
+                "L",
+                "L-215"
+            ]
+        ]
+    },
+    {
+        "code": "CENG 213",
+        "instructor": "A.Smith",
+        "schedule": [
+            [
+                1,
+                7,
+                "T",
+                null
+            ],
+            [
+                2,
+                2,
+                "T",
+                null
+            ],
+            [
+                2,
+                1,
+                "T",
+                null
+            ],
+            [
+                3,
+                7,
+                "L",
+                "L-215"
+            ]
+        ]
+    },
+    {
+        "code": "MATH 223",
+        "instructor": "Math Dept",
+        "schedule": [
+            [
+                1,
+                1,
+                "T",
+                null
+            ],
+            [
+                1,
+                6,
+                "T",
+                null
+            ],
+            [
+                3,
+                6,
+                "T",
+                null
+            ]
+        ]
+    },
+    {
+        "code": "EE 209",
+        "instructor": "B.Johnson",
+        "schedule": [
+            [
+                2,
+                6,
+                "T",
+                null
+            ],
+            [
+                2,
+                0,
+                "T",
+                null
+            ],
+            [
+                2,
+                7,
+                "T",
+                null
+            ],
+            [
+                4,
+                2,
+                "L",
+                "L-215"
+            ]
+        ]
+    },
+    {
+        "code": "CENG 301",
+        "instructor": "B.Celikkale",
+        "schedule": [
+            [
+                3,
+                5,
+                "T",
+                null
+            ],
+            [
+                1,
+                1,
+                "T",
+                null
+            ],
+            [
+                3,
+                1,
+                "T",
+                null
+            ]
+        ]
+    },
+    {
+        "code": "CENG 331",
+        "instructor": "M.Davis",
+        "schedule": [
+            [
+                4,
+                7,
+                "T",
+                null
+            ],
+            [
+                0,
+                5,
+                "T",
+                null
+            ],
+            [
+                1,
+                7,
+                "T",
+                null
+            ],
+            [
+                1,
+                0,
+                "L",
+                "L-215"
+            ]
+        ]
+    },
+    {
+        "code": "CENG 336",
+        "instructor": "J.Doe",
+        "schedule": [
+            [
+                4,
+                5,
+                "T",
+                null
+            ],
+            [
+                0,
+                3,
+                "T",
+                null
+            ],
+            [
+                3,
+                7,
+                "T",
+                null
+            ],
+            [
+                2,
+                0,
+                "L",
+                "L-215"
+            ]
+        ]
+    },
+    {
+        "code": "CENG 350",
+        "instructor": "B.Avenoglu",
+        "schedule": [
+            [
+                3,
+                4,
+                "T",
+                null
+            ],
+            [
+                1,
+                4,
+                "T",
+                null
+            ],
+            [
+                1,
+                2,
+                "T",
+                null
+            ]
+        ]
+    },
+    {
+        "code": "CENG 443",
+        "instructor": "S.Esmelioglu",
+        "schedule": [
+            [
+                0,
+                4,
+                "T",
+                null
+            ],
+            [
+                4,
+                0,
+                "T",
+                null
+            ],
+            [
+                4,
+                3,
+                "T",
+                null
+            ]
+        ]
+    },
+    {
+        "code": "CENG 435",
+        "instructor": "B.Celikkale",
+        "schedule": [
+            [
+                4,
+                1,
+                "T",
+                null
+            ],
+            [
+                0,
+                7,
+                "T",
+                null
+            ],
+            [
+                4,
+                4,
+                "T",
+                null
+            ]
+        ]
+    },
+    {
+        "code": "CENG 491",
+        "instructor": "C.Brown",
+        "schedule": [
+            [
+                3,
+                2,
+                "T",
+                null
+            ],
+            [
+                2,
+                1,
+                "T",
+                null
+            ],
+            [
+                3,
+                3,
+                "L",
+                "L-215"
+            ]
+        ]
+    },
+    {
+        "code": "SENG 201",
+        "instructor": "A.Smith",
+        "schedule": [
+            [
+                1,
+                4,
+                "T",
+                null
+            ],
+            [
+                0,
+                0,
+                "T",
+                null
+            ],
+            [
+                0,
+                7,
+                "T",
+                null
+            ],
+            [
+                0,
+                2,
+                "L",
+                "L-215"
+            ],
+            [
+                0,
+                6,
+                "L",
+                "L-215"
+            ]
+        ]
+    },
+    {
+        "code": "SENG 310",
+        "instructor": "J.Doe",
+        "schedule": [
+            [
+                2,
+                3,
+                "T",
+                null
+            ],
+            [
+                0,
+                1,
+                "T",
+                null
+            ],
+            [
+                4,
+                6,
+                "T",
+                null
+            ],
+            [
+                1,
+                5,
+                "L",
+                "L-217"
+            ]
+        ]
+    },
+    {
+        "code": "SENG 450",
+        "instructor": "M.Davis",
+        "schedule": [
+            [
+                0,
+                0,
+                "T",
+                null
+            ],
+            [
+                4,
+                2,
+                "T",
+                null
+            ],
+            [
+                0,
+                2,
+                "T",
+                null
+            ],
+            [
+                3,
+                0,
+                "L",
+                "L-215"
+            ]
+        ]
+    },
+    {
+        "code": "SENG 101",
+        "instructor": "S.Esmelioglu",
+        "schedule": [
+            [
+                1,
+                6,
+                "T",
+                null
+            ],
+            [
+                0,
+                7,
+                "T",
+                null
+            ],
+            [
+                1,
+                3,
+                "T",
+                null
+            ],
+            [
+                2,
+                5,
+                "L",
+                "L-215"
+            ],
+            [
+                4,
+                1,
+                "L",
+                "L-215"
+            ]
+        ]
+    }
+]

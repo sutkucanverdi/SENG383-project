@@ -1,0 +1,18 @@
+[
+  {"name": "S.Esmelioglu", "max_hours": 8, "busy_slots": []},
+  {"name": "B.Celikkale", "max_hours": 8, "busy_slots": []},
+  {"name": "B.Avenoglu", "max_hours": 8, "busy_slots": []},
+  {"name": "S.K.Tunc", "max_hours": 8, "busy_slots": []},
+  {"name": "A.Smith", "max_hours": 8, "busy_slots": []},
+  {"name": "B.Johnson", "max_hours": 8, "busy_slots": []},
+  {"name": "M.Davis", "max_hours": 8, "busy_slots": []},
+  {"name": "J.Doe", "max_hours": 8, "busy_slots": []},
+  {"name": "C.Brown", "max_hours": 8, "busy_slots": []},
+  {"name": "Physics Dept", "max_hours": 20, "busy_slots": []},
+  {"name": "Math Dept", "max_hours": 20, "busy_slots": []},
+  {"name": "Foreign Lang", "max_hours": 20, "busy_slots": []},
+  {"name": "Turkish Dept", "max_hours": 20, "busy_slots": []},
+  {"name": "Bio Dept", "max_hours": 20, "busy_slots": []},
+  {"name": "Soc. Dept", "max_hours": 20, "busy_slots": []},
+  {"name": "Hist Dept", "max_hours": 20, "busy_slots": []}
+]

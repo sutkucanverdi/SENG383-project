@@ -1,0 +1,6 @@
+[
+  {"name": "L-215", "capacity": 100, "type": "Lab"},
+  {"name": "L-217", "capacity": 100, "type": "Lab"},
+  {"name": "A-101", "capacity": 60, "type": "Classroom"},
+  {"name": "A-102", "capacity": 60, "type": "Classroom"}
+]

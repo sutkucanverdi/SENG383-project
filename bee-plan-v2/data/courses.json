@@ -1,0 +1,27 @@
+[
+  { "code": "CENG 101", "name": "Computer Programming I", "semester": 1, "year": 1, "theory_hours": 3, "lab_hours": 2, "instructor": "S.Esmelioglu", "is_fixed": false, "fixed_slots": [], "students": 70 },
+  { "code": "PHYS 101", "name": "Physics I", "semester": 1, "year": 1, "theory_hours": 3, "lab_hours": 0, "instructor": "Physics Dept", "is_fixed": false, "fixed_slots": [], "students": 80 },
+  { "code": "MATH 157", "name": "Calculus for Engineers I", "semester": 1, "year": 1, "theory_hours": 4, "lab_hours": 0, "instructor": "Math Dept", "is_fixed": false, "fixed_slots": [], "students": 80 },
+  { "code": "ENGG 100", "name": "Introduction to Eng.", "semester": 1, "year": 1, "theory_hours": 2, "lab_hours": 0, "instructor": "B.Avenoglu", "is_fixed": false, "fixed_slots": [], "students": 80 },
+  
+  { "code": "CENG 242", "name": "Programming Lang. Concepts", "semester": 1, "year": 2, "theory_hours": 3, "lab_hours": 1, "instructor": "S.K.Tunc", "is_fixed": false, "fixed_slots": [], "students": 60 },
+  { "code": "CENG 213", "name": "Data Structures", "semester": 1, "year": 2, "theory_hours": 3, "lab_hours": 1, "instructor": "A.Smith", "is_fixed": false, "fixed_slots": [], "students": 60 },
+  { "code": "MATH 223", "name": "Linear Algebra", "semester": 1, "year": 2, "theory_hours": 3, "lab_hours": 0, "instructor": "Math Dept", "is_fixed": false, "fixed_slots": [], "students": 60 },
+  { "code": "EE 209", "name": "Fundamentals of EE", "semester": 1, "year": 2, "theory_hours": 3, "lab_hours": 1, "instructor": "B.Johnson", "is_fixed": false, "fixed_slots": [], "students": 60 },
+  
+  { "code": "CENG 301", "name": "Algorithms", "semester": 1, "year": 3, "theory_hours": 3, "lab_hours": 0, "instructor": "B.Celikkale", "is_fixed": false, "fixed_slots": [], "students": 45 },
+  { "code": "CENG 331", "name": "Operating Systems", "semester": 1, "year": 3, "theory_hours": 3, "lab_hours": 1, "instructor": "M.Davis", "is_fixed": false, "fixed_slots": [], "students": 45 },
+  { "code": "CENG 336", "name": "Embedded Systems", "semester": 1, "year": 3, "theory_hours": 3, "lab_hours": 1, "instructor": "J.Doe", "is_fixed": false, "fixed_slots": [], "students": 45 },
+  { "code": "CENG 350", "name": "Software Engineering", "semester": 1, "year": 3, "theory_hours": 3, "lab_hours": 0, "instructor": "B.Avenoglu", "is_fixed": false, "fixed_slots": [], "students": 45 },
+  
+  { "code": "CENG 443", "name": "Cloud Computing", "semester": 1, "year": 4, "theory_hours": 3, "lab_hours": 0, "instructor": "S.Esmelioglu", "is_fixed": false, "fixed_slots": [], "students": 30 },
+  { "code": "CENG 435", "name": "Big Data", "semester": 1, "year": 4, "theory_hours": 3, "lab_hours": 0, "instructor": "B.Celikkale", "is_fixed": false, "fixed_slots": [], "students": 30 },
+  { "code": "CENG 491", "name": "Project", "semester": 1, "year": 4, "theory_hours": 2, "lab_hours": 1, "instructor": "C.Brown", "is_fixed": false, "fixed_slots": [], "students": 30 },
+  
+  { "code": "SENG 201", "name": "Data Structures", "semester": 1, "year": 2, "theory_hours": 3, "lab_hours": 2, "instructor": "A.Smith", "is_fixed": false, "fixed_slots": [], "students": 50 },
+  { "code": "SENG 310", "name": "Web Development", "semester": 1, "year": 3, "theory_hours": 3, "lab_hours": 1, "instructor": "J.Doe", "is_fixed": false, "fixed_slots": [], "students": 40 },
+  { "code": "SENG 450", "name": "Mobile App Dev", "semester": 1, "year": 4, "theory_hours": 3, "lab_hours": 1, "instructor": "M.Davis", "is_fixed": false, "fixed_slots": [], "students": 35 },
+  { "code": "SENG 101", "name": "Comp. Prog I", "semester": 1, "year": 1, "theory_hours": 3, "lab_hours": 2, "instructor": "S.Esmelioglu", "is_fixed": false, "fixed_slots": [], "students": 50 },
+  { "code": "SENG 102", "name": "Comp. Prog II", "semester": 2, "year": 1, "theory_hours": 3, "lab_hours": 2, "instructor": "S.Esmelioglu", "is_fixed": false, "fixed_slots": [], "students": 50 },
+  { "code": "SENG 202", "name": "Algorithms", "semester": 2, "year": 2, "theory_hours": 3, "lab_hours": 2, "instructor": "B.Johnson", "is_fixed": false, "fixed_slots": [], "students": 50 }
+]
